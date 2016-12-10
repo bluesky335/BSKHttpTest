@@ -1,0 +1,195 @@
+
+/* Class = "NSMenuItem"; title = "HttpTest"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "HttpTest";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "1dy-Bi-6CN"; */
+"1dy-Bi-6CN.title" = "查找上一个";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "2Mr-qF-oLK"; */
+"2Mr-qF-oLK.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "4im-Qb-Dsl"; */
+"4im-Qb-Dsl.title" = "开始朗读";
+
+/* Class = "NSMenuItem"; title = "Quit HttpTest"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "退出 HttpTest";
+
+/* Class = "NSMenuItem"; title = "About HttpTest"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "关于 HttpTest";
+
+/* Class = "NSButtonCell"; title = "clear"; ObjectID = "6bZ-yX-PBc"; */
+"6bZ-yX-PBc.title" = "清除";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "8XM-0b-F9n"; */
+"8XM-0b-F9n.title" = "朗读";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "8bt-5j-FeG"; */
+"8bt-5j-FeG.title" = "粘贴";
+
+/* Class = "NSMenuItem"; title = "help"; ObjectID = "8ug-Hc-FRV"; */
+"8ug-Hc-FRV.title" = "帮助";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "8zA-kT-C5Z"; */
+"8zA-kT-C5Z.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "response data："; ObjectID = "9Xr-nJ-awD"; */
+"9Xr-nJ-awD.title" = "返回的数据：";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "主菜单";
+
+/* Class = "NSTableColumn"; headerCell.title = "note"; ObjectID = "AdV-ul-Inz"; */
+"AdV-ul-Inz.headerCell.title" = "备注";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "B1S-5t-8wN"; */
+"B1S-5t-8wN.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "parameters"; ObjectID = "CEL-hO-UNm"; */
+"CEL-hO-UNm.headerCell.title" = "参数列表";
+
+/* Class = "NSMenuItem"; title = "help"; ObjectID = "CJg-p5-5Sp"; */
+"CJg-p5-5Sp.title" = "帮助";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "CUw-zD-HiR"; */
+"CUw-zD-HiR.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Example ： number=12"; ObjectID = "Ca7-1q-ZLg"; */
+"Ca7-1q-ZLg.title" = "例如 ： number=12";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "DBO-ej-4JI"; */
+"DBO-ej-4JI.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "Hya-Zd-WBY"; */
+"Hya-Zd-WBY.title" = "转换为大写";
+
+/* Class = "NSWindow"; title = "Http API Test"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Http 接口测试";
+
+/* Class = "NSTableColumn"; headerCell.title = "host address"; ObjectID = "JDx-yb-3eZ"; */
+"JDx-yb-3eZ.headerCell.title" = "主机地址";
+
+/* Class = "NSButtonCell"; title = "save"; ObjectID = "L1S-Pi-Vxn"; */
+"L1S-Pi-Vxn.title" = "保存";
+
+/* Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "L3B-cY-pgW"; */
+"L3B-cY-pgW.title" = "查找并替换…";
+
+/* Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "Lig-SQ-2dT"; */
+"Lig-SQ-2dT.title" = "转换为小写";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "M24-yS-lLo"; */
+"M24-yS-lLo.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "MBy-Ye-Kfr"; */
+"MBy-Ye-Kfr.title" = "查找";
+
+/* Class = "NSTableColumn"; headerCell.title = "API address"; ObjectID = "MMG-Ix-r0Z"; */
+"MMG-Ix-r0Z.headerCell.title" = "接口地址";
+
+/* Class = "NSButtonCell"; title = "delete"; ObjectID = "NMK-me-yO5"; */
+"NMK-me-yO5.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "ObQ-pl-7Uj"; */
+"ObQ-pl-7Uj.title" = "粘贴并合并样式";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "Oj1-Pw-UrP"; */
+"Oj1-Pw-UrP.title" = "查找下一个";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "P0g-y9-8zy"; */
+"P0g-y9-8zy.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Pi8-cV-HcQ"; */
+"Pi8-cV-HcQ.title" = "全选";
+
+/* Class = "NSMenuItem"; title = "go to the website Homepage"; ObjectID = "Q9u-ui-TG2"; */
+"Q9u-ui-TG2.title" = "访问官网";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "RDv-Ch-SAJ"; */
+"RDv-Ch-SAJ.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "Rli-a0-n49"; */
+"Rli-a0-n49.title" = "查找选中";
+
+/* Class = "NSTextFieldCell"; title = "Parameters："; ObjectID = "SVE-FF-Iqo"; */
+"SVE-FF-Iqo.title" = "参数列表：";
+
+/* Class = "NSButtonCell"; title = "Json With Color"; ObjectID = "VFf-Yq-FD6"; */
+"VFf-Yq-FD6.title" = "高亮Json";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "Vet-Nv-hFd"; */
+"Vet-Nv-hFd.title" = "查找";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "X4M-L0-xad"; */
+"X4M-L0-xad.title" = "剪切";
+
+/* Class = "NSTextFieldCell"; placeholderString = "API address(index.php)"; ObjectID = "YkD-se-5Sn"; */
+"YkD-se-5Sn.placeholderString" = "接口地址：(如：index.php)";
+
+/* Class = "NSButtonCell"; title = "Json"; ObjectID = "Zro-5F-o4i"; */
+"Zro-5F-o4i.title" = "Json";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "aJV-3E-YJb"; */
+"aJV-3E-YJb.title" = "查找…";
+
+/* Class = "NSTextFieldCell"; placeholderString = "host addressL：（http://www.example.com）"; ObjectID = "b4Y-gA-2Pc"; */
+"b4Y-gA-2Pc.placeholderString" = "主机地址：（如：http://www.example.com）";
+
+/* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "bEh-MW-9og"; */
+"bEh-MW-9og.title" = "转换";
+
+/* Class = "NSMenu"; title = "help"; ObjectID = "di5-lq-DTv"; */
+"di5-lq-DTv.title" = "帮助";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "eCU-r7-bF9"; */
+"eCU-r7-bF9.title" = "朗读";
+
+/* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "fD3-BT-hLg"; */
+"fD3-BT-hLg.title" = "首字母大写";
+
+/* Class = "NSMenu"; title = "Transformations"; ObjectID = "fOC-OT-oPt"; */
+"fOC-OT-oPt.title" = "转换";
+
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "gf7-yS-CF7"; */
+"gf7-yS-CF7.title" = "跳转到选中";
+
+/* Class = "NSButtonCell"; title = "post"; ObjectID = "heZ-nJ-1Jg"; */
+"heZ-nJ-1Jg.title" = "post";
+
+/* Class = "NSTextFieldCell"; title = "response data from http API"; ObjectID = "hpS-sE-aH3"; */
+"hpS-sE-aH3.title" = "接口返回的数据";
+
+/* Class = "NSTableColumn"; headerCell.title = "delete"; ObjectID = "kuj-M7-ffN"; */
+"kuj-M7-ffN.headerCell.title" = "删除";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "pfI-ZG-qeV"; */
+"pfI-ZG-qeV.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "get"; ObjectID = "rbm-0B-5Sm"; */
+"rbm-0B-5Sm.title" = "get";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "roJ-8G-Ux5"; */
+"roJ-8G-Ux5.title" = "Table View Cell";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "sGH-oj-Qej"; */
+"sGH-oj-Qej.title" = "撤销";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "sOS-sl-oGq"; */
+"sOS-sl-oGq.title" = "Text Cell";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "tzi-yw-XC0"; */
+"tzi-yw-XC0.title" = "编辑";
+
+/* Class = "NSMenu"; title = "HttpTest"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "HttpTest";
+
+/* Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "vOa-9A-IrZ"; */
+"vOa-9A-IrZ.title" = "停止朗读";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "vmn-y3-VL0"; */
+"vmn-y3-VL0.title" = "Table View Cell";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "yHa-D8-6El"; */
+"yHa-D8-6El.title" = "复制";
+
+/* Class = "NSMenuItem"; title = "about"; ObjectID = "yk5-Qi-DQy"; */
+"yk5-Qi-DQy.title" = "关于";
