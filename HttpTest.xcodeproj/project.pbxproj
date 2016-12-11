@@ -195,7 +195,7 @@
 				TargetAttributes = {
 					00A86C7B1DD6B10D00520E59 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = EM3XGA7J6B;
+						DevelopmentTeam = YP8G3T6PA9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -367,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = EM3XGA7J6B;
+				DEVELOPMENT_TEAM = YP8G3T6PA9;
 				INFOPLIST_FILE = HttpTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -382,7 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = EM3XGA7J6B;
+				DEVELOPMENT_TEAM = YP8G3T6PA9;
 				INFOPLIST_FILE = HttpTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
