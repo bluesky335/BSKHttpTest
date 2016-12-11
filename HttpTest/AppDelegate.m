@@ -25,7 +25,7 @@
 }
 
 - (IBAction)helpAction:(id)sender {
-      [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://bluesky335.oschina.io/PC/index.html"]];
+      [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://httptest.liuwanlin.tk/help.html"]];
 }
 - (IBAction)linkToWebSite:(id)sender {
 }

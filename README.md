@@ -4,17 +4,14 @@
 
 一个测试接口数据的小工具，将接口返回的json高亮显示，方便开发人员查看数据。
 
-你可以在 [GitHub]()  clone 之后自己编译，也可以到这里（[HttpTest.liuwanlin.tk](http://httptest.liuwanlin.tk)）下载编译好的版本。
+你可以在 [GitHub](https://github.com/bluesky335/BSKHttpTest)  clone 之后自己编译，也可以到这里（[httptest.liuwanlin.tk](http://httptest.liuwanlin.tk/)）下载编译好的版本。
 
 
 
-> 
->
 > **编译环境**：Xcode 8.1
 >
 > **引用**：AFNetWorking
 >
->  
 
 
 

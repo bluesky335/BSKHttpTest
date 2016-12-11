@@ -3,12 +3,29 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
 		<style type="text/css">
 			body{
-				font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 			}
 			div{
 				width: 100%;
+			}
+			#liu a{
+				color: white;
+				text-decoration: none;
+			}
+			#liu{
+				position: absolute;
+				top: 0;
+				width: 40px;
+				height:40px;
+				line-height: 40px;
+				text-align: center;
+				font-size: 30px;
+				color: white;
+				background-color: dodgerblue;
+				box-shadow: 0px 0px 5px  #333333;
 			}
 			#title{
 				margin-top: 100px;
@@ -16,6 +33,7 @@
 				font-size: 50px;
 			}
 			#versiontext{
+				font-weight: 100;
 				text-align: center;
 				margin-top: 20px;
 				font-size: 15px;
@@ -35,6 +53,11 @@
 				border-radius: 15px;
 				background-color: dodgerblue;
 			}
+			#downloadCountNumber{
+				width: 100%;
+				text-align: center;
+				font-weight: 100;
+			}
 			.contentdiv{
 				/*width: 90%;*/
 				margin: 0 auto;
@@ -46,6 +69,7 @@
 				float: left;
 			}
 			.text1 li{
+				font-weight: 100;
 				margin-top: 20px;
 			}
 			.img1{
@@ -69,11 +93,101 @@
 			}
 		</style>
 	</head>
+	<script>
+		var APP_ID = 'QpyU7g95Q4RTjoNraYLnJoNH-gzGzoHsz';
+
+// 应用 Key，用来校验权限（Web 端可以配置安全域名来保护数据安全）
+		var APP_KEY = 'nQtqjUzmJQQcaALCvTaBncVN';
+
+// 初始化
+		AV.init({
+ 			 appId: APP_ID,
+  			appKey: APP_KEY
+		});
+		
+	
+		
+		if(getCookie("openFirsttime")==""){
+			var query = new AV.Query('OpenWebSiteCount');
+  			query.get('584cf5462f301e00572b9f74').then(function (count) {
+   			 // 成功获得实例
+    			var countnumber = count.get('count');
+    			count.save({
+    				count:countnumber+1
+    			}).then(function(){ 
+    				setCookie('openFirsttime','no',1);
+    			});
+    			
+  			}, function (error) {
+   			 // 异常处理
+  			  console.error(error);
+  			});
+		}
+		
+		
+		
+		window.onload=function (){
+			var query = new AV.Query('DownloadCount');
+  			query.get('584cf2cc61ff4b0058e04e68').then(function (downloadcount) {
+   			 // 成功获得实例
+    				var countnumber = downloadcount.get('count');
+    				document.getElementById("downloadCountNumber").innerHTML="已有"+countnumber+"次下载";
+  			}, function (error) {
+   			 // 异常处理
+  			  console.error(error);
+  			});
+			
+			document.getElementById("downloadButton").onclick=function(){
+			var query = new AV.Query('DownloadCount');
+  			query.get('584cf2cc61ff4b0058e04e68').then(function (downloadcount) {
+   			 // 成功获得实例
+    				var countnumber = downloadcount.get('count');
+    				downloadcount.save({
+    					count:countnumber+1
+    			}).then(function(){
+    				window.open("http://www.www.baidu.net");
+    			});
+    			
+  			}, function (error) {
+   			 // 异常处理
+  			  console.error(error);
+  			});
+			};
+			
+		};
+
+function setCookie(c_name,value,expiredays)
+{
+var exdate=new Date()
+exdate.setDate(exdate.getDate()+expiredays)
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+}
+
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=")
+  if (c_start!=-1)
+    { 
+    c_start=c_start + c_name.length+1 
+    c_end=document.cookie.indexOf(";",c_start)
+    if (c_end==-1) c_end=document.cookie.length
+    return unescape(document.cookie.substring(c_start,c_end))
+    } 
+  }
+return ""
+}
+
+	</script>
 	<body>
+		<div id="liu"><a href="http://www.liuwanlin.tk">劉</a></div>
 		<div id="title"><img src="AppIcon128x128.png">
 		<br/>HttpTest</div>
 		<div id="versiontext">一个测试接口数据的小工具<br/>版本 1.0</div>
-		<div id="linkContainer"><a href="" class="button">Download</a><a href="" class="button">SourceCode</a><a href="help.html" class="button">help</a></div>
+		<div id="linkContainer"><a href="javascript:void(0);" class="button" id="downloadButton">Download</a><a href="" class="button">SourceCode</a><a href="help.html" class="button">help</a></div>
+		<div id="downloadCountNumber"></div>
 		<div class="contentdiv">
 			<ul class="text1">
 				<li>方便的填写网络请求参数，不在需要麻烦的链接符&amp;和?</li>

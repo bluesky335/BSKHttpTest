@@ -30,12 +30,12 @@
 }
 - (IBAction)websiteAction:(NSButton *)sender {
     sender.state = NSOffState;
-     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://bluesky335.oschina.io/PC/index.html"]];
+     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://httptest.liuwanlin.tk"]];
     
 }
 - (IBAction)codeAction:(NSButton *)sender {
     sender.state = NSOffState;
-     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://bluesky335.oschina.io/PC/index.html"]];
+     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/bluesky335/BSKHttpTest"]];
 }
 
 @end
