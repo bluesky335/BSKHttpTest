@@ -28,6 +28,7 @@
       [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://httptest.liuwanlin.tk/help.html"]];
 }
 - (IBAction)linkToWebSite:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://httptest.liuwanlin.tk/"]];
 }
 - (IBAction)aboutAction:(id)sender {
     [[[[NSApp keyWindow] windowController] contentViewController] presentViewControllerAsModalWindow:[[BSKAboutViewController alloc] init]];

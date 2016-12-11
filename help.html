@@ -21,11 +21,27 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 #liu{
 				position: absolute;
 				top: 0;
-				width: 40px;
-				height:40px;
-				line-height: 40px;
+				width: 50px;
+				height:50px;
+				line-height: 50px;
 				text-align: center;
-				font-size: 30px;
+				font-size: 40px;
+				color: white;
+				background-color: dodgerblue;
+				box-shadow: 0px 0px 5px  #333333;
+			}
+#httptest a{
+				color: white;
+				text-decoration: none;
+			}
+#httptest{
+				position: absolute;
+				top: 60px;
+				width: 50px;
+				height:50px;
+				line-height: 50px;
+				text-align: center;
+				font-size: 15px;
 				color: white;
 				background-color: dodgerblue;
 				box-shadow: 0px 0px 5px  #333333;
@@ -537,7 +553,8 @@ header, .context-menu, .megamenu-content, footer{
 </head>
 <body class='typora-export' >
 	
-		<div id="liu"><a href="http://www.liuwanlin.tk">劉</a></div>
+		<a href="http://www.liuwanlin.tk"><div id="liu">劉</div></a>
+		<a href="http://httptest.liuwanlin.tk"><div id="httptest">Http://</div></a>
 <div  id='write'  class = 'is-mac'><p><img src='AppIcon128x128.png' alt='httptest' /></p><h1><a name='header-c7' class='md-header-anchor '></a>HttpTest  1.0</h1><p>一个测试接口数据的小工具，将接口返回的json高亮显示，方便开发人员查看数据。</p><p>你可以在 <a href='https://github.com/bluesky335/BSKHttpTest'>GitHub</a>  clone 之后自己编译，也可以到这里（<a href='http://httptest.liuwanlin.tk/'>httptest.liuwanlin.tk</a>）下载编译好的版本。</p><p></p><blockquote><p><strong>编译环境</strong>：Xcode 8.1</p><p><strong>引用</strong>：AFNetWorking</p></blockquote><p></p><h2><a name='header-c21' class='md-header-anchor '></a>使用注意事项</h2><ul><li><p>在进行网络请求时，会自动将主机地址和接口地址进行拼接，你可以将URL分开写，也可以写在一个输入框中。之所以拆开是为了看起来更有条理，因为接口有很多，主机地址基本不会变。</p></li><li><p>填写参数时请务必按照如下格式填写：</p><blockquote><p>example=12</p><p>key=theKey</p><p>age=18</p></blockquote><p>一行只写一个参数，参数名和参数值之间用英文等号链接，请避免一行中出现多个等号</p></li></ul><p> <br/></p><p>  ​</p><p></p><h2><a name='header-c44' class='md-header-anchor '></a>Json 语法高亮</h2><ul><li>方便的填写网络请求参数，不在需要麻烦的链接符&amp;和?</li><li>Json语法高亮，数据更清晰</li><li>支持post和get</li><li>支持保存接口和返回的数据</li><li>双击列表项即可打开之前保存的数据</li></ul><p><img src='app1.jpg' alt='json语法高亮' /></p><p></p><h2><a name='header-c65' class='md-header-anchor '></a>Force Touch 预览链接</h2><ul><li>超链接高亮显示</li><li>单击超链接即可跳转</li><li>重按触控板使用Force Touch 预览超链接</li></ul><p><img src='app2.jpg' alt='Force Touch' /></p></div>
 </body>
 </html>
