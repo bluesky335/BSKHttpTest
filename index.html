@@ -127,7 +127,7 @@
 		
 		
 		
-		$({
+		$(function(){
 			var query = new AV.Query('DownloadCount');
   			query.get('584cf2cc61ff4b0058e04e68').then(function (downloadcount) {
    			 // 成功获得实例
