@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HttpTest 接口测试工具</title>
+		<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
 		<style type="text/css">
 			body{
@@ -126,7 +127,7 @@
 		
 		
 		
-		window.onload=function (){
+		$({
 			var query = new AV.Query('DownloadCount');
   			query.get('584cf2cc61ff4b0058e04e68').then(function (downloadcount) {
    			 // 成功获得实例
@@ -154,7 +155,7 @@
   			});
 			};
 			
-		};
+		});
 
 function setCookie(c_name,value,expiredays)
 {
